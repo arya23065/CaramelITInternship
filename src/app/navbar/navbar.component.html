@@ -1,12 +1,14 @@
 
-<mat-toolbar id="navbar">
+<mat-toolbar fxFlex id="navbar">
     <span>
-        <img src="../assets/images/caramelconsortium.jpg">
+        <a href="https://www.caramelit.com/index.html">
+            <img src="../assets/images/caramelconsortium.jpg">
+        </a>
     </span>
     <span class="alignment-space"></span>
     <span>
         <div class="options" >
-            <a mat-button [routerLink]="'#'" class="main-dropdown"> IT Services Home </a>
+            <a mat-button href={{homeLink}} class="main-dropdown"> IT Services Home </a>
             <span class="industries-dropdown">
                 <a mat-button [routerLink]="'#'" class="main-dropdown" id="industries"> Industries </a>
                 <div class="industries-dropdown-options">
@@ -22,7 +24,7 @@
 
             <a mat-button [routerLink]="'#'" class="main-dropdown"> Insights </a>
             <a mat-button [routerLink]="'#'" class="main-dropdown"> Business </a>
-            <a mat-button [routerLink]="'#'" class="main-dropdown">  Contact Us </a>
+            <a mat-button href={{contactLink}} class="main-dropdown">  Contact Us </a>
         </div>
     </span>
 </mat-toolbar>

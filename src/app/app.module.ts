@@ -15,13 +15,15 @@ import { MaterialModule } from './material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DescriptionComponent } from './description/description.component';
 import { SuccessDividerComponent } from './success-divider/success-divider.component';
+import { FeaturesSectionComponent } from './features-section/features-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     DescriptionComponent,
-    SuccessDividerComponent
+    SuccessDividerComponent,
+    FeaturesSectionComponent
   ],
   imports: [
     BrowserModule,

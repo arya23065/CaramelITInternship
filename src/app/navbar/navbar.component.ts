@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  homeLink = "https://www.caramelit.com/index.html";
+  contactLink = "https://www.caramelit.com/consortiumcontact.html";
+
   constructor() { }
 
   ngOnInit(): void {

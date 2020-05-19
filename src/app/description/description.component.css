@@ -1,27 +1,32 @@
 .description{
     display: flex;
     padding-top: 50px;
-    height: 400px;
+    padding-top: 50px;
+    height: auto;    
 }
 
 .image-container{
-    flex-grow: 1;
+    flex-wrap: inherit;
+    align-items: right;
 }
 
 
 img{
     max-height:100%;
+    max-width: 100%;
     width: auto;
-    align-items: right;
+    max-height: 450px;
+    margin: auto;
 }
 
 h1{
     color: RGB(76, 175, 80,1);
+    font-size: 45px;
 }
 
 .text-container{
-    min-width: 55%;
-    width: 55%;
+    min-width: 50%;
+    width: 50%;
 }
 
 #heading{
@@ -34,4 +39,6 @@ p {
     padding-left:20px;
     padding-right:20px;
     font-size: 23px;
+    text-align: justify;
+    text-justify: inter-word;
 }
