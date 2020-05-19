@@ -1,0 +1,28 @@
+
+<mat-toolbar id="navbar">
+    <span>
+        <img src="../assets/images/caramelconsortium.jpg">
+    </span>
+    <span class="alignment-space"></span>
+    <span>
+        <div class="options" >
+            <a mat-button [routerLink]="'#'" class="main-dropdown"> IT Services Home </a>
+            <span class="industries-dropdown">
+                <a mat-button [routerLink]="'#'" class="main-dropdown" id="industries"> Industries </a>
+                <div class="industries-dropdown-options">
+                    <a mat-button [routerLink]="'#'">Automotive</a>
+                    <a mat-button [routerLink]="'#'">Communication and Media</a>
+                    <a mat-button [routerLink]="'#'">Communication & Media</a>
+                    <a mat-button [routerLink]="'#'">Life Sciences & Healthcare</a>
+                    <a mat-button [routerLink]="'#'">Banking</a>
+                    <a mat-button [routerLink]="'#'">Consumer Goods & Services</a>
+                    <a mat-button [routerLink]="'#'">Travel</a>
+                </div>
+            </span>
+
+            <a mat-button [routerLink]="'#'" class="main-dropdown"> Insights </a>
+            <a mat-button [routerLink]="'#'" class="main-dropdown"> Business </a>
+            <a mat-button [routerLink]="'#'" class="main-dropdown">  Contact Us </a>
+        </div>
+    </span>
+</mat-toolbar>
